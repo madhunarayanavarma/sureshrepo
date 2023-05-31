@@ -1,0 +1,301 @@
+{
+	"name": "DelimitedText1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureDataLakeStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "export.csv",
+				"fileSystem": "raw"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "OTU ID",
+				"type": "String"
+			},
+			{
+				"name": "HO0776.448",
+				"type": "String"
+			},
+			{
+				"name": "HO0776.022",
+				"type": "String"
+			},
+			{
+				"name": "HO0776.407",
+				"type": "String"
+			},
+			{
+				"name": "HO0776.267",
+				"type": "String"
+			},
+			{
+				"name": "HO0776.326",
+				"type": "String"
+			},
+			{
+				"name": "HO0776.339",
+				"type": "String"
+			},
+			{
+				"name": "HO0776.026",
+				"type": "String"
+			},
+			{
+				"name": "HO0776.315",
+				"type": "String"
+			},
+			{
+				"name": "HO0776.282",
+				"type": "String"
+			},
+			{
+				"name": "HO0776.396",
+				"type": "String"
+			},
+			{
+				"name": "HO0776.338",
+				"type": "String"
+			},
+			{
+				"name": "HO0776.272",
+				"type": "String"
+			},
+			{
+				"name": "HO0776.306",
+				"type": "String"
+			},
+			{
+				"name": "HO0776.253",
+				"type": "String"
+			},
+			{
+				"name": "HO0776.018",
+				"type": "String"
+			},
+			{
+				"name": "HO0776.268",
+				"type": "String"
+			},
+			{
+				"name": "HO0776.307",
+				"type": "String"
+			},
+			{
+				"name": "HO0776.345",
+				"type": "String"
+			},
+			{
+				"name": "HO0776.126",
+				"type": "String"
+			},
+			{
+				"name": "HO0776.096",
+				"type": "String"
+			},
+			{
+				"name": "HO0776.094",
+				"type": "String"
+			},
+			{
+				"name": "HO0776.138",
+				"type": "String"
+			},
+			{
+				"name": "HO0776.447",
+				"type": "String"
+			},
+			{
+				"name": "HO0776.176",
+				"type": "String"
+			},
+			{
+				"name": "HO0776.186",
+				"type": "String"
+			},
+			{
+				"name": "HO0776.ATCC.1003",
+				"type": "String"
+			},
+			{
+				"name": "HO0776.240",
+				"type": "String"
+			},
+			{
+				"name": "HO0776.225",
+				"type": "String"
+			},
+			{
+				"name": "HO0776.180",
+				"type": "String"
+			},
+			{
+				"name": "HO0776.232",
+				"type": "String"
+			},
+			{
+				"name": "HO0776.131",
+				"type": "String"
+			},
+			{
+				"name": "HO0776.311",
+				"type": "String"
+			},
+			{
+				"name": "HO0776.385",
+				"type": "String"
+			},
+			{
+				"name": "HO0776.FAECAL",
+				"type": "String"
+			},
+			{
+				"name": "HO0776.192",
+				"type": "String"
+			},
+			{
+				"name": "HO0776.219",
+				"type": "String"
+			},
+			{
+				"name": "HO0776.357",
+				"type": "String"
+			},
+			{
+				"name": "HO0776.037",
+				"type": "String"
+			},
+			{
+				"name": "HO0776.196",
+				"type": "String"
+			},
+			{
+				"name": "HO0776.217",
+				"type": "String"
+			},
+			{
+				"name": "HO0776.300",
+				"type": "String"
+			},
+			{
+				"name": "HO0776.210",
+				"type": "String"
+			},
+			{
+				"name": "HO0776.218",
+				"type": "String"
+			},
+			{
+				"name": "HO0776.054",
+				"type": "String"
+			},
+			{
+				"name": "HO0776.444",
+				"type": "String"
+			},
+			{
+				"name": "HO0776.452",
+				"type": "String"
+			},
+			{
+				"name": "HO0776.435",
+				"type": "String"
+			},
+			{
+				"name": "HO0776.128",
+				"type": "String"
+			},
+			{
+				"name": "HO0776.004",
+				"type": "String"
+			},
+			{
+				"name": "HO0776.122",
+				"type": "String"
+			},
+			{
+				"name": "HO0776.276",
+				"type": "String"
+			},
+			{
+				"name": "HO0776.293",
+				"type": "String"
+			},
+			{
+				"name": "HO0776.403",
+				"type": "String"
+			},
+			{
+				"name": "HO0776.ATCC.1004",
+				"type": "String"
+			},
+			{
+				"name": "HO0776.312",
+				"type": "String"
+			},
+			{
+				"name": "HO0776.380",
+				"type": "String"
+			},
+			{
+				"name": "HO0776.044",
+				"type": "String"
+			},
+			{
+				"name": "HO0776.203",
+				"type": "String"
+			},
+			{
+				"name": "HO0776.042",
+				"type": "String"
+			},
+			{
+				"name": "HO0776.313",
+				"type": "String"
+			},
+			{
+				"name": "HO0776.375",
+				"type": "String"
+			},
+			{
+				"name": "HO0776.393",
+				"type": "String"
+			},
+			{
+				"name": "HO0776.051",
+				"type": "String"
+			},
+			{
+				"name": "HO0776.208",
+				"type": "String"
+			},
+			{
+				"name": "HO0776.076",
+				"type": "String"
+			},
+			{
+				"name": "HO0776.365",
+				"type": "String"
+			},
+			{
+				"name": "HO0776.MOCK.1.2",
+				"type": "String"
+			},
+			{
+				"name": "HO0776.negative",
+				"type": "String"
+			}
+		]
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

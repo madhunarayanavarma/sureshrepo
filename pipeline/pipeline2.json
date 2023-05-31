@@ -1,0 +1,27 @@
+{
+	"name": "pipeline2",
+	"properties": {
+		"activities": [
+			{
+				"name": "Execute Pipeline1",
+				"type": "ExecutePipeline",
+				"dependsOn": [],
+				"userProperties": [],
+				"typeProperties": {
+					"pipeline": {
+						"referenceName": "pipeline1",
+						"type": "PipelineReference"
+					},
+					"waitOnCompletion": true,
+					"parameters": {
+						"source": "raw",
+						"sink": "output"
+					}
+				}
+			}
+		],
+		"annotations": [],
+		"lastPublishTime": "2023-05-31T03:02:09Z"
+	},
+	"type": "Microsoft.DataFactory/factories/pipelines"
+}
